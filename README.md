@@ -23,10 +23,14 @@ Enter contest URL and Programming language to be used -> https://codeforces.com/
 # which represent the testcases downloaded
 ```
 
-# Running sol.cpp on multiple testcases and viewing output
+# Running sol.cpp/sol.java on multiple testcases and viewing output
 ```bash
 ./runall.sh A #if you want to test A/sol.cpp
 ./runall.sh D #if you want to test D/sol.cpp against your output vs sample output
 # this will run your code on downloaded test cases
 # and print to console your output vs expected output
 ```
+
+# Template of Language provided -
+ 1. java
+ 2. cpp
