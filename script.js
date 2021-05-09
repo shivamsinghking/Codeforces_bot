@@ -75,7 +75,7 @@ const readline = require('readline').createInterface({
 readline.question('Enter contest URL and Programming language to be used -> ', (value) => {
 
   let arrInput = value.split(" ")
-  let url = arrInput[0];
+  let url = arrInput[0];git 
   lang = arrInput[1];
   console.log(url, lang);
   readline.close();
